@@ -1,0 +1,85 @@
+body{
+    position: static;
+    background-color: #E4EAE7;
+    font-family: 'Century', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+/*    overflow: hidden;*/
+    
+}
+
+#hamburger
+{
+    height: 5vh;
+    width: 5vw; 
+    margin-left: 10px;
+}
+
+#hamburger:hover
+{
+    background-color: #239D2A;
+    color: white;
+}
+
+#logout_btn
+{
+    top:5px;
+    right:5px;
+    position: absolute;
+}
+
+#logout_btn:hover{
+    background-color: #239D2A;
+    color:white;
+}
+
+#logout_btn_div
+{
+    display: inline-block;
+    width: 95vw;
+    border-style: none;
+}
+
+#menu_bar
+{
+    /*Alignment*/
+    margin: 0;
+    position: absolute;
+    background-color: #E4EAE7;
+    top: 10vh;
+    left: 0;
+    height: 90vh;
+    width:20vw; /*It needs to be responsive to adpat mobile screen*/
+}
+
+#current_window
+{
+    position: absolute;
+    margin: 0;
+    top: 5vh;
+    left:20vw;
+    width: 80vw;
+    height: 95vh;
+    background-color: white;
+}
+
+#menu
+{
+    list-style: none;
+    margin-top: 10%;
+}
+#menu_item
+{
+    font-size: 1rem;
+    font-family: 'Century';
+    padding:15px;
+    cursor: pointer;
+    
+}
+#menu_item:hover
+{
+    background-color: #239D2A;
+    color: white;
+}
